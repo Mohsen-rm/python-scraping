@@ -43,7 +43,7 @@ def DownloadImg():
         print("Save Img")
 
 def DownloadTemplate():
-    ydl_opts_icon = {'outtmpl': "templates_zip/"+id_str+".zip"}
+    ydl_opts_icon = {'outtmpl': "template/"+id_str+".zip"}
     with youtube_dl.YoutubeDL(ydl_opts_icon) as ydl:
         ydl.download([url_template])
     print("Save Template")
