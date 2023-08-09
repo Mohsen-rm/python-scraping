@@ -133,5 +133,3 @@ for page in range(8,1000):
             for tag in tags:
                 rating = rating + "|" + tag.text.lower()
             SaveData()
-
-            # TY7@@Mohs#5gG
